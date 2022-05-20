@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "target": "es2017",
+    "module": "commonjs",
+    "outDir": "./build",
+    "strict": true,
+    "strictNullChecks": false,
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "esModuleInterop": true
+  },
+  "include": [
+    "mocksdata/*.json",
+    "src/**/*",
+    "src/**/*.json"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
+}
